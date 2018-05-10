@@ -10,9 +10,8 @@
         android:id="@+id/LoginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="81dp"
         android:text="로그인"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="403dp" />
@@ -24,7 +23,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
-        app:srcCompat="@drawable/initlogo"
+        app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
