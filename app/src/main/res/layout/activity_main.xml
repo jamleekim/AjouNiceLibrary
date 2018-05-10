@@ -11,6 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="메인화면입니다."
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="245dp" />
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="274dp" />
 </android.support.constraint.ConstraintLayout>
