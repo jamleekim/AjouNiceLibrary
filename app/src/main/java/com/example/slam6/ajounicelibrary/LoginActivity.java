@@ -12,6 +12,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getWindow().setWindowAnimations(0);
         Button b = (Button)findViewById(R.id.LoginButton);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
