@@ -12,7 +12,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        getWindow().setWindowAnimations(0);
         Button LoginButton = (Button)findViewById(R.id.LoginButton); //로그인버튼id가져오기
         LoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
