@@ -12,5 +12,6 @@
         android:text="반납액티비티!"
         android:textSize="20pt"
         tools:layout_editor_absoluteX="162dp"
+        android:layout_gravity="center_vertical"
         tools:layout_editor_absoluteY="288dp" />
 </LinearLayout>

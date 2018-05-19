@@ -11,15 +11,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
+            android:id="@+id/textView2"
+            android:layout_width="240dp"
             android:layout_height="wrap_content"
-            android:text="아주나이스도서관에 \n오신 것을 환영합니다."
             android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Welcome"
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="AjouNiceLibrary"
             android:textSize="15pt" />
 
         <LinearLayout
@@ -30,7 +42,7 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="20pt"
+                android:layout_width="76dp"
                 android:layout_height="20pt"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/searchicon" />
@@ -39,10 +51,10 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:gravity="start"
-                android:text="도서 검색"
-                android:layout_marginBottom="20dp"
+                android:text="qr 코드스캔"
                 android:textSize="15pt" />
 
         </LinearLayout>

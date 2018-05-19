@@ -18,12 +18,12 @@
         android:src="@drawable/initlogo" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/loadingtextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="192dp"
-        android:textSize="18pt"
-        android:text="Loading..." />
+        android:text="Loading..."
+        android:textSize="18pt" />
 </RelativeLayout>

@@ -21,7 +21,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".BorrowActivity" />
-        <activity android:name=".ReturnbookActivity"></activity>
+        <activity android:name=".ReturnbookActivity" />
+        <activity android:name=".FontBaseActivity" />
+        <activity android:name=".CodeScanActivity"></activity>
     </application>
 
 </manifest>

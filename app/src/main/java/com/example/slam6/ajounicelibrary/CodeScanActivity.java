@@ -3,11 +3,11 @@ package com.example.slam6.ajounicelibrary;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ReturnbookActivity extends FontBaseActivity {
+public class CodeScanActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_returnbook);
+        setContentView(R.layout.activity_code_scan);
     }
 }

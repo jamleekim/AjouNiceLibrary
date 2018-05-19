@@ -10,6 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
         android:text="대출액티비티!"
         android:textSize="20pt"
         tools:layout_editor_absoluteX="162dp"
