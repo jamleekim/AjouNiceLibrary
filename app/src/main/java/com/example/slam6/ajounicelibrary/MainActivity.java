@@ -12,20 +12,29 @@ public class MainActivity extends FontBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView borrowtextview = (TextView)findViewById(R.id.borrowtextview); //로그인버튼id가져오기
+
+        TextView qrscanbutton = (TextView)findViewById(R.id.qrscanbutton);
+        qrscanbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( getApplicationContext(), CodeScanActivity.class);
+                startActivity(intent);
+            }
+        });
+        TextView borrowtextview = (TextView)findViewById(R.id.borrowtextview);
         borrowtextview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent( getApplicationContext(), BorrowActivity.class);
-                startActivity(intent); // 메인 화면으로 넘어간다
+                startActivity(intent);
             }
         });
-        TextView returnbooktextview = (TextView)findViewById(R.id.returnbooktextview); //로그인버튼id가져오기
+        TextView returnbooktextview = (TextView)findViewById(R.id.returnbooktextview);
         returnbooktextview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent( getApplicationContext(), ReturnbookActivity.class);
-                startActivity(intent); // 메인 화면으로 넘어간다
+                startActivity(intent);
             }
         });
 
