@@ -18,6 +18,7 @@ public class CodeScanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         /* QR code Scanner Setting */
         qrScan = new IntentIntegrator(this);
+        qrScan.setCaptureActivity(CaptureOrientationActivity.class);
         qrScan.setOrientationLocked(false);
         qrScan.setPrompt("QR 코드를 스캔하세요");
         qrScan.initiateScan();
