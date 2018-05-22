@@ -26,7 +26,7 @@
         <activity android:name=".ReturnbookActivity" />
         <activity android:name=".FontBaseActivity" />
         <activity
-            android:name=".CodeScanActivity"
+            android:name=".BookScanActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".CaptureOrientationActivity">
             android:screenOrientation="fullSensor"
@@ -34,6 +34,8 @@
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden"
         </activity>
+        <activity android:name=".LibraryAuthActivity" />
+        <activity android:name=".CaptureOrientation2Activity"></activity>
     </application>
 
 </manifest>

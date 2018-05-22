@@ -1,7 +1,6 @@
 package com.example.slam6.ajounicelibrary;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -17,7 +16,7 @@ public class MainActivity extends FontBaseActivity {
         qrscanbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( getApplicationContext(), CodeScanActivity.class);
+                Intent intent = new Intent( getApplicationContext(), BookScanActivity.class);
                 startActivity(intent);
             }
         });
@@ -25,7 +24,7 @@ public class MainActivity extends FontBaseActivity {
         borrowtextview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( getApplicationContext(), BorrowActivity.class);
+                Intent intent = new Intent( getApplicationContext(), LibraryAuthActivity.class);
                 startActivity(intent);
             }
         });
